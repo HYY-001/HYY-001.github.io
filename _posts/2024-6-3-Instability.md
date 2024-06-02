@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "流体中的经典不稳定性"
-date:   2024-06-02 00:00:00
+date:   2024-06-03 00:00:00
 tags: [fluid mechanics]
 comments: true
 author: Yannick Howard

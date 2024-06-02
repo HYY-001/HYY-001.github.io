@@ -14,7 +14,7 @@ author: Yannick Howard
 第一个笔者想写的内容是流体不稳定性。笔者打算先分享几个经典不稳定性的推导过程。初步计划将介绍Kelvin-Helmholtz (KH) instability， Rayleigh-Taylor (RT) instability， Rayleigh-Plateau (RP) Instability和Rayleigh-B$\acute{e}$énard (RB) instability。
 
 <!-- more -->
-# Kelvin-Helmholtz Instability
+## Kelvin-Helmholtz Instability
 
 首先我们将介绍KH不稳定性。
 
@@ -25,6 +25,6 @@ KH不稳定性不稳定性的一个典型特征是，它可以在没有任何外
 下面我们将对KH不稳定性给出几种不同的研究方法。
 
 
------------------
+----
 测试公式能否正常显示：
 $\frac{\partial}{\partial t} u + u \cdot \nabla u = -\nabla p + \nu \nabla^2 u$

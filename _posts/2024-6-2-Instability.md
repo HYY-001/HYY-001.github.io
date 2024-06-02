@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "流体中的经典不稳定性"
-date:   2024-06-03 00:00:00
+date:   2024-06-02 00:00:00
 tags: [fluid mechanics]
 comments: true
 author: Yannick Howard
@@ -25,7 +25,4 @@ KH不稳定性不稳定性的一个典型特征是，它可以在没有任何外
 
 下面我们将对KH不稳定性给出几种不同的研究方法。
 
-
-----
-测试公式能否正常显示：
-$\frac{\partial}{\partial t} u + u \cdot \nabla u = -\nabla p + \nu \nabla^2 u$
+未完待续...

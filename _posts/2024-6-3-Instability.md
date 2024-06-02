@@ -1,4 +1,4 @@
-![image](https://github.com/HYY-001/HYY-001.github.io/assets/77492450/50b9c0ae-b004-459c-8c16-fd715008ffae)---
+---
 layout: post
 title: "流体中的经典不稳定性"
 date:   2024-6-3

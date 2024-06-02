@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <body>
-    {% include nav.html %}
+{% include head.html %}
+<body>
+{% include nav.html %}
 
-    {% if page.toc==true %}
-      <aside class="toc">
-        {% include toc.html html=content %}
-      </aside>
-    {% endif %}
+{% if page.toc==true %}
+<aside class="toc">
+    {% include toc.html html=content %}
+</aside>
+{% endif %}
 
-    <div id="main" role="main" class="wrapper-content">
-      <div class="container">
+<div id="main" role="main" class="wrapper-content">
+    <div class="container">
         {{ content }}
-      </div>
     </div>
+</div>
 
-    {% include analytics.html %}
-  </body>
+{% include analytics.html %}
 
-  {% if page.toc==true %}
-  <script>
-    document.getElementById("main").classList.add("withtoc");
-  </script>
-  {% endif %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
 
-  <div class="wrapper-footer-mobile">
+{% if page.toc==true %}
+<script>
+document.getElementById("main").classList.add("withtoc");
+</script>
+{% endif %}
+
+<div class="wrapper-footer-mobile">
     <footer class="footer">
-      {% include footer.html %}
+        {% include footer.html %}
     </footer>
-
-
+</div>
+</body>
 </html>

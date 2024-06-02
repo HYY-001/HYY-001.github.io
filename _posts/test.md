@@ -2,7 +2,7 @@
 layout: post
 title: "测试"
 date:   2024-6-3
-tags: [notice]
+tags: [test]
 comments: true
 author: Yannick Howard
 ---

@@ -1,8 +1,8 @@
-name: "Pianfan's blog"
-description: "翩帆的个人技术博客"
+name: "Yannick's blog"
+description: "Yannick Howard的个人博客"
 
-avatar: https://jsd.onmicrosoft.cn/gh/HYY-001/img_bed@main/img/Personal_Profile.webp
-favicon: https://pianfan.github.io/images/favicon.ico
+avatar: https://jsd.onmicrosoft.cn/gh/HYY-001/img_bed@main/img/Profile.png
+favicon: https://jsd.onmicrosoft.cn/gh/HYY-001/img_bed@main/img/Personal_Profile.webp
 
 navigation:
   - name: 首页
@@ -18,16 +18,16 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: xiongyunhan@outlook.com
+  email: houyuy0608@163.com
   facebook:
-  github: pianfan
+  github: HYY-001
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
 
-footer-text: Copyright (c) 2024 Pianfan
+footer-text: Copyright (c) 2024 Yannick
 
-url: https://pianfan.github.io
+url: https://HYY-001.github.io
 
 permalink: /:title/
 paginate_path: /page:num/

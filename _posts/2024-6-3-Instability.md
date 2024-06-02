@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "流体中的经典不稳定性"
-date:   2024-06-02 00:00:00
+date:   2024-06-03 00:00:00
 tags: [fluid mechanics]
 comments: true
 author: Yannick Howard
@@ -12,7 +12,7 @@ author: Yannick Howard
 
 由于笔者近期开始准备博士资格考试（Ph.D. qualifying exam），故打算将一些复习内容顺做分享。目前计划是先写一些数学物理，尤其是流体力学中比较经典的内容，并随机掉落一些笔者对于中文互联网上学习资料比较少，或者相对前沿研究的一些学习笔记。
 
-第一个笔者想写的内容是流体不稳定性。笔者打算先分享几个经典不稳定性的推导过程。初步计划将介绍Kelvin-Helmholtz (KH) instability， Rayleigh-Taylor (RT) instability， Rayleigh-Plateau (RP) Instability和Rayleigh-B$\acute{e}$énard (RB) instability。
+第一个笔者想写的内容是流体不稳定性。笔者打算先分享几个经典不稳定性的推导过程。初步计划将介绍Kelvin-Helmholtz (KH) instability， Rayleigh-Taylor (RT) instability， Rayleigh-Plateau (RP) Instability和Rayleigh-B$\acute{e}$nard (RB) instability。
 
 <!-- more -->
 ## Kelvin-Helmholtz Instability

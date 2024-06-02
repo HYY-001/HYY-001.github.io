@@ -27,4 +27,4 @@ KH不稳定性不稳定性的一个典型特征是，它可以在没有任何外
 
 -----------------
 测试公式能否正常显示：
-$\frac{\partial}{\partial t}$ u 
+$\frac{\partial}{\partial t} u + u \cdot \nabla u = -\nabla p + \nu \nabla^2 u$ 
